@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Opera
+Comment=Browse the web with built-in privacy and productivity tools.
+Exec=opera %U
+Icon=opera
+Terminal=false
+Categories=Network;WebBrowser;
