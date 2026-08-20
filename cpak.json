@@ -3,9 +3,9 @@
   "manifest_version": "2.0",
   "name": "Opera",
   "description": "Browse the web with built-in privacy and productivity tools.",
-  "version": "133.0.5932.60",
+  "version": "135.0.5973.41",
   "image": "ghcr.io/containerpak/opera:main",
-  "runtime_sources": [{"name": "opera-stable_133.0.5932.60_amd64.deb", "url": "https://get.geo.opera.com/pub/opera/desktop/133.0.5932.60/linux/opera-stable_133.0.5932.60_amd64.deb", "sha256": "8da792bd27a70d9e91b463fe314a427a22ebdda1bfe98463bdce2807a492752b", "size": 137861740, "installer": "dpkg"}],
+  "runtime_sources": [{"name": "opera-stable_135.0.5973.41_amd64.deb", "url": "https://deb.opera.com/opera-stable/pool/non-free/o/opera-stable/opera-stable_135.0.5973.41_amd64.deb", "sha256": "3a97a803845da4422deb7d566f81cf4cfd1a9519683391423ca03b6e8368b21b", "size": 139438396, "installer": "dpkg"}],
   "binaries": [
     "/usr/bin/opera"
   ],
