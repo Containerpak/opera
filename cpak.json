@@ -1,11 +1,19 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "Opera",
   "description": "Browse the web with built-in privacy and productivity tools.",
   "version": "135.0.5973.55",
-  "image": "ghcr.io/containerpak/opera:main",
-  "runtime_sources": [{"name": "opera-stable_135.0.5973.55_amd64.deb", "url": "https://deb.opera.com/opera-stable/pool/non-free/o/opera-stable/opera-stable_135.0.5973.55_amd64.deb", "sha256": "63c5e7e43f17caef7682a4b2d67a1472c16c01bb278f3a036232321aba6aa3a4", "size": 139366080, "installer": "dpkg"}],
+  "image": "ghcr.io/containerpak/opera@sha256:63f88ac8f6fdf4e95a6bb4e3b9a6b38b7225c25444965ed76407918f8999b37d",
+  "runtime_sources": [
+    {
+      "name": "opera-stable_135.0.5973.55_amd64.deb",
+      "url": "https://deb.opera.com/opera-stable/pool/non-free/o/opera-stable/opera-stable_135.0.5973.55_amd64.deb",
+      "sha256": "63c5e7e43f17caef7682a4b2d67a1472c16c01bb278f3a036232321aba6aa3a4",
+      "size": 139366080,
+      "installer": "dpkg"
+    }
+  ],
   "binaries": [
     "/usr/bin/opera"
   ],
@@ -16,16 +24,11 @@
   "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": true,
     "socketWayland": true,
     "socketPulseAudio": true,
-    "socketSessionBus": true,
-    "socketSystemBus": false,
     "socketSshAgent": false,
     "socketCups": true,
     "socketGpgAgent": false,
-    "socketAtSpiBus": true,
-    "socketBluetooth": false,
     "deviceDri": true,
     "deviceKvm": false,
     "deviceShm": true,
@@ -54,7 +57,6 @@
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": []
+    "asRoot": false
   }
 }
