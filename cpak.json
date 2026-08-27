@@ -4,7 +4,7 @@
   "name": "Opera",
   "description": "Browse the web with built-in privacy and productivity tools.",
   "version": "135.0.5973.55",
-  "image": "ghcr.io/containerpak/opera@sha256:51251e4b460c53699b50b83a1ea98550c7a87d4ae96f0f903bd53da5aef7ac13",
+  "image": "ghcr.io/containerpak/opera@sha256:a140da96abe64d8673ddee7c26a776cf18224859e9b4248bdfa564aa883a3a1a",
   "runtime_sources": [
     {
       "name": "opera-stable_135.0.5973.55_amd64.deb",
