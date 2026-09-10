@@ -3,14 +3,14 @@
   "manifest_version": "3.0",
   "name": "Opera",
   "description": "Browse the web with built-in privacy and productivity tools.",
-  "version": "135.0.5973.101",
+  "version": "135.0.5973.123",
   "image": "ghcr.io/containerpak/opera@sha256:962797e2fe3ee69100524358a6ab016f1fdf29459759afc3708aa88da6241cc5",
   "runtime_sources": [
     {
-      "name": "opera-stable_135.0.5973.101_amd64.deb",
-      "url": "https://deb.opera.com/opera-stable/pool/non-free/o/opera-stable/opera-stable_135.0.5973.101_amd64.deb",
-      "sha256": "5b618ea3ccd87350ee72949be5adc9bccc1258c23adbf9da848f159db8ba6f26",
-      "size": 139395616,
+      "name": "opera-stable_135.0.5973.123_amd64.deb",
+      "url": "https://deb.opera.com/opera-stable/pool/non-free/o/opera-stable/opera-stable_135.0.5973.123_amd64.deb",
+      "sha256": "f30370f22e53987e11c2e8fdda7231f73de4570439276d6aedea9228b8b9f155",
+      "size": 139387516,
       "installer": "dpkg"
     }
   ],
